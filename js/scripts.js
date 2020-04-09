@@ -12,3 +12,10 @@ const winCombos = [
     [6,4,2]
 
 ]
+// re: video code (const cells = document.querySelectorAll('cell'))
+const cells = $('.cell');
+
+function startGame() {
+    document.querySelector(".endgame").style.display = "none"
+    origBoard = Array.from(Array(9).keys())
+}
